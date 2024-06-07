@@ -1,6 +1,6 @@
 これはDocker上でgeopandasを導入したAnacondaからjupyterlabを起動させるためのdocker-composeファイルです。
 使用方法：Windowsの場合
-1、Dockerをインストールします。
+1、Docker for Desktopをインストールします。
 2、PowerShellを開きます。
 3、ここまでにデータの保存先を作成しておきましょう。外部ストレージはなぜか反応しないので、Cボリュームを指定します。
 4、データの保存先に今回のコードを入れます。
