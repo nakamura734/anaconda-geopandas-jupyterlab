@@ -6,7 +6,7 @@ FROM continuumio/anaconda3
 RUN conda update -n base -c defaults conda -y
 
 # 必要なパッケージのインストール
-RUN conda install -c conda-forge geopandas jupyterlab  -y
+RUN conda install -c conda-forge geopandas jupyterlab geoplot  -y
 
 RUN conda install -c conda-forge jupyterlab-language-pack-ja-JP -y
 
